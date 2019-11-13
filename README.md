@@ -4,7 +4,7 @@
 
 ### pyespm - Speech Enhancement Measures Implemented in Python
 [pyespm](https://github.com/schmiph2/pyespm) is a collection of different objective speech enhancement measures for performance evaluation.
-#### Implemented Objetive Speech Intelligibility Measures
+### Implemented Objetive Speech Intelligibility Measures
 + Segmental Signal-to-Noise Ratio (SNRseg)
 + Frequency-weighted Segmental SNR (fwSNRseg)
 + Log-likelihood Ratio (LLR)
@@ -12,10 +12,10 @@
 + Perceptual Evaluation of Speech Quality (PESQ)
 + Composite Objective Speech Quality (composite)
 
-#### Implemented Objetive Speech Intelligibility Measures
+### Implemented Objetive Speech Intelligibility Measures
 + Short-time objective intelligibility (STOI)
 
-#### Installation using pip
+### Installation using pip
 The setup.py is not finished yet. You have to install the dependencies by hand.
 
 First install Cython (Required for python-pesq):

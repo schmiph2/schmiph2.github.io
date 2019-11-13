@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+# Welcome to schmiph2
 
-You can use the [editor on GitHub](https://github.com/schmiph2/schmiph2.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Repos
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### pyespm - Speech Enhancement Measures Implemented in Python
+[pyespm](https://github.com/schmiph2/pyespm) is a collection of different objective speech enhancement measures for performance evaluation.
+#### Implemented Objetive Speech Intelligibility Measures
++ Segmental Signal-to-Noise Ratio (SNRseg)
++ Frequency-weighted Segmental SNR (fwSNRseg)
++ Log-likelihood Ratio (LLR)
++ Weighted Spectral Slope (WSS)
++ Perceptual Evaluation of Speech Quality (PESQ)
++ Composite Objective Speech Quality (composite)
 
-### Markdown
+#### Implemented Objetive Speech Intelligibility Measures
++ Short-time objective intelligibility (STOI)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Installation using pip
+The setup.py is not finished yet. You have to install the dependencies by hand.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+First install Cython (Required for python-pesq):
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/schmiph2/schmiph2.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+pip3 install Cython
+```
+Then install python-pesq and pystoi:
+```
+pip3 install https://github.com/schmiph2/python-pesq/archive/master.zip
+pip3 install https://github.com/schmiph2/pystoi/archive/master.zip
+```
+Finally install pysepm:
+```
+pip3 install https://github.com/schmiph2/pysepm/archive/master.zip
+```

@@ -2,8 +2,8 @@ This website provides a list of my repos.
 
 # Repos
 
-## pyespm - Speech Enhancement Measures Implemented in Python
-[pyespm](https://github.com/schmiph2/pyespm) is a collection of several objective speech enhancement measures for performance evaluation analysed in Philipos C. Loizou's great Speech Enhancement Book. The Python implementations are checked with the MATLAB implementations from the additional material of the book. Additional measures will be added soon. 
+## pysepm - Speech Enhancement Measures Implemented in Python
+[pysepm](https://github.com/schmiph2/pysepm) is a collection of several objective speech enhancement measures for performance evaluation analysed in Philipos C. Loizou's great Speech Enhancement Book. The Python implementations are checked with the MATLAB implementations from the additional material of the book. Additional measures will be added soon. 
 
 ### Implemented Objetive Speech Intelligibility Measures
 + Segmental Signal-to-Noise Ratio (SNRseg)
